@@ -1,7 +1,7 @@
 var http = require("http");//引入http模块
 var fs = require("fs");
 
-var documentRoot = "C:/Users/longJ/Desktop";//此处配置localhost:端口所对应的地址
+var documentRoot = "C:/Users/longJ/Desktop";//此处配置localhost:8080所对应的地址
 
 //开启服务 打开端口
 var server = http.createServer(function(req,res){
